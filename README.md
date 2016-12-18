@@ -8,4 +8,6 @@
 （因为是自用，所以也没有考虑其他的东西......)
 
 ## 使用
-运行main.py后，复制程序中URL到网页浏览器。登陆自己的扇贝账户后，复制转出URL"code="后的字符串到程序中。
+复制以下URL至浏览器：
+https://api.shanbay.com/oauth2/authorize/?client_id=4fac7cf09e339c2c2eb1&response_type=code&state=123
+登陆自己的扇贝账户后，复制转出URL”code=“后的字符串到程序中。
