@@ -54,7 +54,7 @@ while True:
 		data['id'] = ID
 		add_url = "https://api.shanbay.com/bdc/learning/?state=123&access_token=%s" %access_token	
 		r = s.post(add_url,data)
-		os.remove("audio.mp3")
+#		os.remove("audio.mp3")
 	else:
 		print "Not a legal word"
 			
